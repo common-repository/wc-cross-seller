@@ -1,0 +1,81 @@
+
+p.lead {
+	font-size: 1.2em;
+}
+
+.profeature {
+	position: relative;
+}
+
+.profeature:before {
+	position: relative;
+	content: 'Pro';
+	background: #efecc2;
+	float: left;
+	display: inline-block;
+	margin-right: 10px;
+	line-height: 18px;
+	font-size: .8em;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+
+
+.wc-customer-cross-sell-pro {
+	min-height: 200px;
+}
+
+
+ul.profeatures {
+	padding-left: 30px;
+}
+ul.profeatures li {
+	list-style-type: disc;
+}
+
+ul.profeatures li {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+ul.profeatures li small {
+	font-style: italic;
+	font-weight: normal;
+	padding-top: 10px;
+}
+
+ul.profeatures {
+
+}
+
+.cp_logo {
+	position: absolute;
+	top: 10px;
+	right: 50px;
+
+}
+
+p.buttonrow {
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.buttonrow .button-secondary {
+	margin-right: 20px;
+}
+
+#wccssettings_table {
+
+}
+
+#wccssettings_table tr td {
+	margin-right: 40px;
+	vertical-align: top;
+}
+
+#macrolist {
+	padding-top:3px;
+	padding-bottom:3px;
+}
+

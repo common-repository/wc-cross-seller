@@ -1,0 +1,723 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Cross Seller\n"
+"POT-Creation-Date: 2019-01-05 18:07-0500\n"
+"PO-Revision-Date: 2019-01-05 18:07-0500\n"
+"Last-Translator: Lars Koudal <lars@koudal.dk>\n"
+"Language-Team: \n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-cross-seller.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-woocommerce-cross-seller-admin.php:50
+#: admin/class-woocommerce-cross-seller-admin.php:51
+msgid "Cross Sell"
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:92
+#, php-format
+msgid "#%s no email found with order, no emails will be scheduled"
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:99
+#, php-format
+msgid "#%s marked as %s. Scheduling emails."
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:141
+#, php-format
+msgid "#%s No scheduled emails to be sent due to exclusion of product ID # %s"
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:162
+#, php-format
+msgid ""
+"#%s has changed status, but %s has requested not to get any more review "
+"emails. Nothing scheduled."
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:164
+#, php-format
+msgid ""
+"This order has changed, but %s has requested not to get any more review "
+"emails. Nothing scheduled."
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:185
+#, php-format
+msgid "#%s Scheduled emails to be sent to %s on following dates: %s"
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:270
+msgid "Plugin deactivated, not sending emails."
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:277
+#, php-format
+msgid "#%s - %s has requested not to get any more emails. Email was not sent."
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:489
+#, php-format
+msgid "#%s E-mail sent to %s - %s days after purchase."
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:490
+#, php-format
+msgid ""
+"Product suggestions was emailed by WooCommerce Cross Seller. %s days after "
+"purchase."
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:526
+#, php-format
+msgid ""
+"Order #%s changed status to %s, Any emails scheduled to be sent has been "
+"deleted."
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:559
+#, php-format
+msgid ""
+"Manual review reminder - %s has requested not to get any more review emails. "
+"Email was not sent."
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:595
+#: admin/class-woocommerce-cross-seller-admin.php:613
+msgid "Visit cleverplugins.com"
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:597
+msgid ""
+"Thank you for installing. The plugin is now active. New customers with "
+"completed purchases will get product suggestions via email."
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:598
+msgid "The plugin can do more, go take a look at the settings."
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:600
+msgid "Click here to visit the settings"
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:614
+msgid "Over 100 emails sent!"
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:616
+#, php-format
+msgid ""
+"Hey, I noticed WooCommerce Cross Seller has sent %d emails – that’s awesome!"
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:619
+msgid ""
+" Could you please do me a BIG favor and give it a 5-star rating on "
+"WordPress? Just to help us spread the word and boost our motivation :-)"
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:623
+msgid "Ok, you deserve it"
+msgstr ""
+
+#: admin/class-woocommerce-cross-seller-admin.php:646
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: admin/class-woocommerce-cross-seller-admin.php:647
+msgid "Support"
+msgstr "Support"
+
+#: includes/class-wc-customer-cross-sell.php:18
+msgid "Customer Cross Sell"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:19
+msgid ""
+"An email sent to the customer x days after any purchase, promoting other "
+"products in your store."
+msgstr ""
+"En email der promoverer andre produkter bliver sendt til kunden x dage efter "
+"et køb."
+
+#: includes/class-wc-customer-cross-sell.php:51
+#, php-format
+msgid ""
+"Never miss an important update. Opt-in to our security and feature updates "
+"notifications, and non-sensitive diagnostic tracking with freemius.com. <a "
+"href=\"%s\">Click here to opt in.</a>"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:65
+msgid ""
+"Thank you for activating, please check your email to complete the process."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:78
+#, php-format
+msgid "This plugin has sent %d email so far."
+msgid_plural "This plugin has sent %d emails so far."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wc-customer-cross-sell.php:84
+msgid "Account Management"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:86
+msgid "Account Details"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:88
+msgid "Manage your account."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:90
+msgid "Plans and Pricing"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:92
+msgid "Upgrade or downgrade your subscription."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:96
+msgid "Help and support"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:98
+msgid "Knowledge base"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:100
+msgid "Visit the Knowledge Base."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:104
+#, fuzzy
+#| msgid "Support"
+msgid "Contact Support"
+msgstr "Support"
+
+#: includes/class-wc-customer-cross-sell.php:107
+msgid "Have a question? Use the contact page."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:111
+msgid "Helpful links"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:114
+msgid "Emojis can spice up your emails. Careful not to overdo it."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:117
+msgid "To have a log of all outgoing emails from your website."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:120
+msgid ""
+"WP Crontrol lets you view and control what’s happening in the WP-Cron system."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:132
+msgid "Do more with the pro version"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:134
+msgid "Edit email template directly in settings"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:135
+msgid ""
+"No need to edit the php template files, use the built-in email editor. Use "
+"macros to personalize your emails."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:137
+msgid "Show products on Thank You page after purchase."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:138
+msgid "Multiple subject lines."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:139
+msgid "Rotate between different email subject lines for your customers."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:141
+msgid "Support the author behind the plugin :-)"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:142
+msgid "Read more on cleverplugins.com"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:149
+msgid "Free Trial - Try for Free 14 days"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:156
+msgid "Return to emails"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:157
+msgid "Customers are emailed product suggestions based on their purchases."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:161
+msgid "Send Test Email"
+msgstr "Send test e-mail"
+
+#: includes/class-wc-customer-cross-sell.php:167
+#: includes/class-wc-customer-cross-sell.php:171
+msgid "Email Recipient"
+msgstr "E-mail-modtager"
+
+#: includes/class-wc-customer-cross-sell.php:173
+msgid "Enter a valid email to send a test email."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:186
+msgid "Scheduled Emails"
+msgstr "Planlagte e-mails"
+
+#: includes/class-wc-customer-cross-sell.php:191
+msgid "Customer"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:192
+msgid "Order ID"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:193
+msgid "Email"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:194
+#, fuzzy
+#| msgid "Scheduled Emails"
+msgid "Scheduled"
+msgstr "Planlagte e-mails"
+
+#: includes/class-wc-customer-cross-sell.php:218
+#, php-format
+msgid "%s emails scheduled."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:236
+msgid "You can use these macros to customize the content of the email"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:240
+#: includes/class-wc-customer-cross-sell.php:242
+#: includes/class-wc-customer-cross-sell.php:244
+msgid "Replaced with the customers name."
+msgstr "Udskiftes med kundens navn."
+
+#: includes/class-wc-customer-cross-sell.php:246
+msgid "Replaced with the customer email."
+msgstr "UdSkiftes med kundens e-mail."
+
+#: includes/class-wc-customer-cross-sell.php:248
+msgid "Replaced with the site title."
+msgstr "Udskiftes med webstedets titel."
+
+#: includes/class-wc-customer-cross-sell.php:250
+msgid "Replaced with the order id."
+msgstr "Udskiftes med ordre-id."
+
+#: includes/class-wc-customer-cross-sell.php:252
+msgid "Replaced with the date and time of the order."
+msgstr "Udskiftes med dato og tidspunkt for ordren."
+
+#: includes/class-wc-customer-cross-sell.php:254
+msgid "Replaced with the number of days ago the order was made."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:256
+#, fuzzy
+#| msgid "Replaced with the date and time of the order."
+msgid "Replaced with todays date, no timestamp."
+msgstr "Udskiftes med dato og tidspunkt for ordren."
+
+#: includes/class-wc-customer-cross-sell.php:258
+msgid "Replaced with the date the order was marked completed."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:260
+msgid "Replaced with a link to stop recieving product suggetions."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:264
+msgid "Available macros:"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:280
+#: includes/class-wc-customer-cross-sell.php:434
+#: includes/class-wc-customer-cross-sell.php:541
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:283
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:284
+msgid ""
+"You can turn this feature on and off while you tweak the settings. If this "
+"is not turned on, no emails will be scheduled or sent."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:289
+msgid "Subject"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:291
+msgid "The email subject line."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:293
+#: includes/class-wc-customer-cross-sell.php:343
+msgid "{customer_name}, have you seen these?"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:304
+msgid "Subject #2"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:307
+msgid "Enter up to 5 different subject lines."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:308
+#: includes/class-wc-customer-cross-sell.php:360
+msgid "New products from {site_title}"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:311
+msgid "Subject #3"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:314
+#: includes/class-wc-customer-cross-sell.php:366
+msgid "Suggestions for {customer_name}"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:317
+msgid "Subject #4"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:320
+#: includes/class-wc-customer-cross-sell.php:372
+msgid "Recommendations for {customer_name} {today_date} from {site_title}"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:323
+msgid "Subject #5"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:326
+#: includes/class-wc-customer-cross-sell.php:378
+msgid "{customer_name} Have you seen these?"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:338
+msgid "Email heading"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:340
+msgid "The email heading."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:356
+msgid "Email heading #2"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:359
+msgid "Enter up to 5 email headings."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:363
+msgid "Email heading #3"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:369
+msgid "Email heading #4"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:375
+msgid "Email heading #5"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:391
+msgid "Day(s) after order"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:394
+msgid ""
+"You can choose how many days after a order has been made before the emails "
+"are sent. You can add different days, seperated by comma. Default is "
+"<code>7,14,21,30</code>"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:400
+msgid "Order status to schedule"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:404
+msgid ""
+"When an order reaches a specific status, the reminder is scheduled to be "
+"sent. Choose which status. Default status is <code>Completed</code>."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:410
+msgid "Exclude products"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:414
+msgid ""
+"Ignore emails with these product ids. Comma-seperated list of product ids. "
+"No reminder emails with these product ids will be sent."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:429
+msgid "Customize email content"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:436
+msgid "Enable Email Content overwriting email template file."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:437
+msgid ""
+"If enabled it will overwrite any email template changes you have made with "
+"the content here."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:443
+msgid "Email Content"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:445
+msgid "This is the email template"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:447
+msgid ""
+"Hello {customer_name},\n"
+"\n"
+"Thank you for buying from us {days_ago} days ago!\n"
+"\n"
+"We have a few other things you might want, take a look here.\n"
+"\n"
+"{products}\n"
+"\n"
+"Have a nice day,\n"
+"\n"
+"{site_title}.\n"
+"\n"
+"{unsubscribe_link}"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:458
+msgid "Button Background Color"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:462
+msgid ""
+"Background color for Shop Now buttons in email. Default <code>#ad74a2</code>."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:467
+msgid "Button Text Color"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:471
+msgid "Font color for Shop Now buttons in email. Default <code>#ffffff</code>."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:476
+msgid "Button Text"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:479
+msgid "Button Text linking to products. Default is <code>Shop Now</code>."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:480
+#: includes/class-wc-customer-cross-sell.php:481
+msgid "Shop Now"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:485
+msgid "Append to link"
+msgstr "Tilføj til link"
+
+#: includes/class-wc-customer-cross-sell.php:488
+msgid "Add tracking to links in emails, use for click tracking."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:496
+#, fuzzy
+#| msgid "Unsubscribe Options"
+msgid "Email Unsubscribe Options"
+msgstr "Framelding af e-mails"
+
+#: includes/class-wc-customer-cross-sell.php:499
+msgid "Stop Receiving Emails Text"
+msgstr "Stop med at modtage e-mails tekst"
+
+#: includes/class-wc-customer-cross-sell.php:502
+msgid ""
+"This text will be made in to a clickable link you can use with the "
+"<code>{unsubscribe_link}</code> macro."
+msgstr ""
+"Denne tekst bliver udskiftet med et klikbart link du kan bruge med "
+"<code>{unsubscribe_link}</code> macroen."
+
+#: includes/class-wc-customer-cross-sell.php:503
+#: includes/class-wc-customer-cross-sell.php:504
+msgid "Unsubscribe from further emails"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:507
+msgid "Unsubscribe page"
+msgstr "Frameld side"
+
+#: includes/class-wc-customer-cross-sell.php:511
+msgid ""
+"Enter url for page to send customers who unsubscribes. This is the link that "
+"will be used in emails. If empty, the frontpage of your website will be used."
+msgstr ""
+"Indtast URL til side som du vil viderestille kunder der framelder. Dette er "
+"det link der vil blive bruge brugt i e-mails. Hvis dette felt er tomt, "
+"bliver linket til din forside brugt."
+
+#: includes/class-wc-customer-cross-sell.php:517
+msgid "Email blocklist"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:520
+msgid ""
+"Comma separated list of emails that will not receive any further emails."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:536
+msgid "Thank You Page Cross Sell"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:543
+msgid "Enable cross selling on the Thank You page after order completion."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:544
+msgid "Turn on cross selling products on the thank you page."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:549
+msgid "Headline"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:552
+msgid "Title before the list of products on the Thank You page."
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:553
+#: includes/class-wc-customer-cross-sell.php:554
+msgid "Recommended for you"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:567
+#, php-format
+msgid "%1$s View Log%2$s"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:574
+msgid "Debug Log"
+msgstr ""
+
+#: includes/class-wc-customer-cross-sell.php:576
+msgid ""
+"To help you find problems and debug errors. Important events are always "
+"logged"
+msgstr ""
+
+#: public/class-woocommerce-cross-seller-public.php:100
+#, php-format
+msgid ""
+"#%s - %s requested not to get any more emails and was added to the email "
+"blocklist."
+msgstr ""
+
+#: woocommerce-cross-seller.php:95
+msgid "WooCommerce not installed or active"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WC Cross Seller"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://cleverplugins.com/woocommerce-cross-seller/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Keep customers engaged and get more sales with product recommendations. "
+"Automatically emails customers."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Cleverplugins.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://cleverplugins.com"
+msgstr ""
+
+#~ msgid "Logs"
+#~ msgstr "Log"
+
+#~ msgid "Time"
+#~ msgstr "Tid"
+
+#~ msgid "Event"
+#~ msgstr "Begivenhed"
+
+#~ msgid "Replaced with a link to stop recieving email review reminders."
+#~ msgstr ""
+#~ "Udskiftes med et link til at stoppe med at modtage cross sell e-mails."
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgid "Email Settings"
+#~ msgstr "Indstillinger"
+
+#~ msgid "You are now unsubscribed"
+#~ msgstr "Du er nu frameldt"
+
+#~ msgid "Unsubscribe message"
+#~ msgstr "Afmelding besked"
+
+#~ msgid ""
+#~ "This is the email template that will be sent to users who unsubscribe."
+#~ msgstr ""
+#~ "Dette er e-mailen der vil bliver sendt til kunder der framelder sig."
+
+#~ msgid "Would you like more?"
+#~ msgstr "Vil du have mere?"
